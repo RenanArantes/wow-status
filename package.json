@@ -1,0 +1,21 @@
+{
+  "name": "wow-status",
+  "version": "1.0.0",
+  "description": "Uma chamada para a pagina de status de servidores da blizzard, que verifica se os servidores estão online ou offline.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "capture": "node capture.js",
+    "clicks": "node testClick.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.0",
+    "puppeteer": "^23.4.0"
+  }
+}
