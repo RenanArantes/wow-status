@@ -1,26 +1,53 @@
-Bem-vindo ao repositório wow-status!
+Here is a draft for your README.md file:
 
-Descrição
-wow-status é um projeto criado por RenanArantes. O propósito deste repositório ainda não foi descrito, mas pretendemos fornecer mais detalhes em breve.
+```markdown
+# WoW Status
 
-Índice
-Instalação
-Uso
-Contribuindo
-Licença
-Instalação
-As instruções para configurar o projeto localmente serão adicionadas aqui.
+WoW Status is a Node.js application that checks the status of World of Warcraft servers from Blizzard's status page and verifies if the servers are online or offline.
 
-Uso
-As diretrizes sobre como usar o projeto serão fornecidas aqui.
+## Table of Contents
 
-Contribuindo
-Contribuições são bem-vindas! Por favor, siga estes passos:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Scripts](#scripts)
+- [Dependencies](#dependencies)
+- [License](#license)
 
-Faça um fork do repositório.
-Crie uma nova branch (git checkout -b feature-branch).
-Faça commit das suas alterações (git commit -am 'Adicionar nova funcionalidade').
-Faça push para a branch (git push origin feature-branch).
-Crie um novo Pull Request.
-Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+## Installation
+
+To install the necessary dependencies, run the following command:
+
+```bash
+npm install
+```
+
+## Usage
+
+To start the application and capture the status data, you can run the following command:
+
+```bash
+npm run capture
+```
+
+This will launch a Puppeteer instance to navigate to the status pages of various World of Warcraft regions, extract the status data, and save it to JSON files.
+
+## Scripts
+
+- `start`: Runs the main application (currently not specified).
+- `capture`: Captures the status data from the specified World of Warcraft server status pages.
+- `clicks`: Runs the `testClick.js` script (purpose not specified).
+- `test`: Placeholder for running tests (currently not implemented).
+
+## Dependencies
+
+- `axios`: ^1.7.7
+- `cheerio`: ^1.0.0
+- `express`: ^4.21.0
+- `puppeteer`: ^23.4.0
+
+## License
+
+This project is licensed under the ISC License.
+```
+
+Feel free to customize it further based on your project's specific details and needs.
