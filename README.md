@@ -1,23 +1,18 @@
 Here is a draft for your README.md file:
 
-```markdown
 # WoW Status
 
 WoW Status is a Node.js application that checks the status of World of Warcraft servers from Blizzard's status page and verifies if the servers are online or offline.
-
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Scripts](#scripts)
 - [Dependencies](#dependencies)
-- [License](#license)
 
 ## Installation
-
 To install the necessary dependencies, run the following command:
-
-```bash
+```markdown
 npm install
 ```
 
@@ -45,9 +40,5 @@ This will launch a Puppeteer instance to navigate to the status pages of various
 - `express`: ^4.21.0
 - `puppeteer`: ^23.4.0
 
-## License
-
-This project is licensed under the ISC License.
-```
 
 Feel free to customize it further based on your project's specific details and needs.
