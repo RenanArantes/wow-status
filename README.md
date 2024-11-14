@@ -1,5 +1,3 @@
-Here is a draft for your README.md file:
-
 # WoW Status
 
 WoW Status is a Node.js application that checks the status of World of Warcraft servers from Blizzard's status page and verifies if the servers are online or offline.
